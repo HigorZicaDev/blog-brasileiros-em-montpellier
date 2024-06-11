@@ -1,0 +1,14 @@
+baseURL = 'https://blog-brasileiros-em-montpellier.hinmjq.easypanel.host/'
+languageCode = 'en-us'
+title = 'Blog Brasileiros em Montpellier'
+
+paginate = 4
+
+
+[params]
+    description = "Dicas úteis para brasileiros que vivem em Montpellier"
+    dateFormat = "Jan 2, 2006"
+
+[taxonomies]
+    category = "categories"
+    author = "authors"

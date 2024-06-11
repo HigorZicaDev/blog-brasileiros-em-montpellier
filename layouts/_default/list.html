@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="hero">
+	<img src="/images/background.jpg" />
+	<div class="content">
+		<h3>Blog Brasileiros em Montpellier</h2>
+      <br>
+	</div>
+</div>
+
+<div class="list-posts">
+  {{ range .Paginator.Pages }}
+    <div class="listItems">
+      <img src={{.Params.image}} alt={{.Title}} class="listItemImage" loading="lazy" />
+      <div class="listItemTexts">
+        <h1 class="listItemTitle">
+          <a href={{.Permalink}}>{{.Title}}</a>
+        </h1>
+        <p class="listItemDesc">{{.Params.description}}</p>
+        <p class="listItemDesc" style=" {{if eq .Params.Published false }} background-color: azure;width:300px;padding:5px;color:black;text-align:center;font-weight:500;border-radius:10px; {{ end }}">{{if eq .Params.Published false }} AINDA NÃO PUBLICADO! {{ end }} </p>
+        <div class="listItemDetail">
+          <img src={{.Params.avatar}} class="listItemAvatar" loading="lazy" alt="">
+          <span> {{ range (.GetTerms "authors") }}
+            <a href={{.Permalink}}>{{ .Name }}</a>
+            {{ end }}</span>
+          <time>{{ dateFormat .Site.Params.dateformat .Date}}</time>
+        </div>
+        <div class="listItemCategories">
+          {{ range (.GetTerms "categories") }}
+          <a class="listItemCategory" href={{ .Permalink }}>{{ .Name }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    {{ end }} {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

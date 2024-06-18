@@ -16,9 +16,9 @@
           <a href={{.Permalink}}>{{.Title}}</a>
         </h1>
         <p class="listItemDesc">{{.Params.description}}</p>
-        <p class="listItemDesc" style=" {{if eq .Params.Published false }} background-color: azure;width:300px;padding:5px;color:black;text-align:center;font-weight:500;border-radius:10px; {{ end }}">{{if eq .Params.Published false }} AINDA NÃO PUBLICADO! {{ end }} </p>
+        <p class="listItemDesc" style="{{if eq .Params.Published false }}background-color:azure;width:300px;padding:5px;color:black;text-align:center;font-weight:500;border-radius:10px; {{end}}">{{if eq .Params.Published false }} AINDA NÃO PUBLICADO! {{ end }} </p>
         <div class="listItemDetail">
-          <img src={{.Params.avatar}} class="listItemAvatar" loading="lazy" alt="">
+          <img src={{.Params.avatar}} class="listItemAvatar" loading="lazy" alt="Icone autor">
           <span> {{ range (.GetTerms "authors") }}
             <a href={{.Permalink}}>{{ .Name }}</a>
             {{ end }}</span>
@@ -26,7 +26,7 @@
         </div>
         <div class="listItemCategories">
           {{ range (.GetTerms "categories") }}
-          <a class="listItemCategory" href={{ .Permalink }}>{{ .Name }}</a>
+          <a class="listItemCategory" href={{.Permalink}}>{{ .Name }}</a>
           {{ end }}
         </div>
       </div>

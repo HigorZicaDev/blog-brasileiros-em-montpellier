@@ -11,7 +11,7 @@ avatar = "/images/avatar.webp"
 +++
 
 
-Esse post foi criado para compartilhar eventos que possuem musica brasileira ou são feitos por pessoas da comunidade brasileiros em Montpellier. Não possui fins lucrativas essas dicas nem é uma publicidade feito para os bares ou restaurantes onde acontecem os eventos.
+Esse post foi criado para compartilhar eventos que possuem musica brasileira ou são feitos por pessoas da comunidade brasileiros em Montpellier. Não possui fins lucrativos e não é uma publicidade feita em parceroa com bares ou restaurantes onde acontecem os eventos.
 
 ### 1º Evento - Couleurs de Bières Nord - (Quinta-feira)
 

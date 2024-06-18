@@ -1,6 +1,6 @@
 +++
 title = 'Como Trabalhar Em Aplicativos De Delivery'
-date = 2024-06-11T15:47:25+02:00
+date = 2024-07-01T15:47:25+02:00
 draft = false
 description = "Como trabalhar em aplicativos de delivery na França sendo brasileiro ou estrangeiro. O que é necessário de documentações? Quais são os passos para conseguir trabalhar legalmente ?"
 image = "/images/post-delivery-en-france.png"

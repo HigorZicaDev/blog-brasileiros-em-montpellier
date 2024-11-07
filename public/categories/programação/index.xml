@@ -6,21 +6,14 @@
     <description>Recent content in Programação on Blog Brasileiros em Montpellier</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Sep 2024 14:58:36 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 11:33:06 +0200</lastBuildDate>
     <atom:link href="https://brasileirosemmontpellier.blog/categories/programa%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Script Boilerplate para Desenvolvimento Web</title>
-      <link>https://brasileirosemmontpellier.blog/script-boilerplate-dev-web/</link>
-      <pubDate>Tue, 10 Sep 2024 14:58:36 +0200</pubDate>
-      <guid>https://brasileirosemmontpellier.blog/script-boilerplate-dev-web/</guid>
-      <description>Você pode criar um script em shell para gerar o boiler plate de um projeto com HTML, CSS e JavaScript. Esse script pode criar as pastas e os arquivos básicos para o projeto. Aqui está um exemplo de script:&#xA;Crie um arquivo chamado create_project.sh Insira o conteúdo abaixo para gerar um diretório contendo a estrutura padrão de pastas do seu projeto. #!/bin/bash # Verifica se o nome do projeto foi fornecido if [ -z &amp;#34;$1&amp;#34; ]; then echo &amp;#34;Erro: Nenhum nome de projeto fornecido.</description>
-    </item>
     <item>
       <title>Como se Tornar um Desenvolvedor Web na França</title>
       <link>https://brasileirosemmontpellier.blog/como-se-tornar-dev/</link>
       <pubDate>Wed, 04 Sep 2024 11:33:06 +0200</pubDate>
       <guid>https://brasileirosemmontpellier.blog/como-se-tornar-dev/</guid>
-      <description>Abertura Olá, pessoal! Bem-vindos ao blog Higor Zica/ Brasileiros em Montpellier. Se você é brasileiro e está pensando em se tornar um desenvolvedor web na França, ou se já está por aqui e quer saber como entrar nesse mercado, você está no lugar certo! Hoje, eu vou compartilhar com vocês um passo a passo detalhado de como você pode seguir essa carreira promissora na Terra dos Croissants. 🇫🇷&#xA;1. Entendendo o Mercado de Trabalho na França Primeiro, vamos falar sobre o mercado de trabalho para desenvolvedores web na França.</description>
+      <description>&lt;h2 id=&#34;abertura&#34;&gt;Abertura&lt;/h2&gt;&#xA;&lt;p&gt;Olá, pessoal! Bem-vindos ao blog Higor Zica/ Brasileiros em Montpellier. Se você é brasileiro e está pensando em se tornar um desenvolvedor web na França, ou se já está por aqui e quer saber como entrar nesse mercado, você está no lugar certo! Hoje, eu vou compartilhar com vocês um passo a passo detalhado de como você pode seguir essa carreira promissora na Terra dos Croissants. 🇫🇷&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-entendendo-o-mercado-de-trabalho-na-frança&#34;&gt;1. Entendendo o Mercado de Trabalho na França&lt;/h2&gt;&#xA;&lt;p&gt;Primeiro, vamos falar sobre o mercado de trabalho para desenvolvedores web na França. A demanda por profissionais de TI aqui é alta, especialmente em grandes cidades como Paris, Lyon e Toulouse. Mas, é importante entender que, além das habilidades técnicas, a fluência no francês pode ser um grande diferencial, apesar de muitas empresas, especialmente startups e multinacionais, adotarem o inglês como língua de trabalho.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
